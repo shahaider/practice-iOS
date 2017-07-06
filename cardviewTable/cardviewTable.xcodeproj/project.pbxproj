@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F230FB2A1F0E1498007354BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F230FB291F0E1498007354BD /* AppDelegate.swift */; };
+		F230FB2C1F0E1498007354BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F230FB2B1F0E1498007354BD /* ViewController.swift */; };
+		F230FB2F1F0E1499007354BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F230FB2D1F0E1499007354BD /* Main.storyboard */; };
+		F230FB311F0E1499007354BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F230FB301F0E1499007354BD /* Assets.xcassets */; };
+		F230FB341F0E1499007354BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F230FB321F0E1499007354BD /* LaunchScreen.storyboard */; };
+		F230FB3D1F0E1E75007354BD /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F230FB3C1F0E1E75007354BD /* customTableViewCell.swift */; };
+		F230FB3F1F0E1E97007354BD /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F230FB3E1F0E1E97007354BD /* cardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F230FB261F0E1498007354BD /* cardviewTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardviewTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F230FB291F0E1498007354BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F230FB2B1F0E1498007354BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F230FB2E1F0E1499007354BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F230FB301F0E1499007354BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F230FB331F0E1499007354BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F230FB351F0E1499007354BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F230FB3C1F0E1E75007354BD /* customTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
+		F230FB3E1F0E1E97007354BD /* cardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F230FB231F0E1493007354BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F230FB1D1F0E1492007354BD = {
+			isa = PBXGroup;
+			children = (
+				F230FB281F0E1498007354BD /* cardviewTable */,
+				F230FB271F0E1498007354BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F230FB271F0E1498007354BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F230FB261F0E1498007354BD /* cardviewTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F230FB281F0E1498007354BD /* cardviewTable */ = {
+			isa = PBXGroup;
+			children = (
+				F230FB291F0E1498007354BD /* AppDelegate.swift */,
+				F230FB2B1F0E1498007354BD /* ViewController.swift */,
+				F230FB2D1F0E1499007354BD /* Main.storyboard */,
+				F230FB301F0E1499007354BD /* Assets.xcassets */,
+				F230FB321F0E1499007354BD /* LaunchScreen.storyboard */,
+				F230FB351F0E1499007354BD /* Info.plist */,
+				F230FB3C1F0E1E75007354BD /* customTableViewCell.swift */,
+				F230FB3E1F0E1E97007354BD /* cardView.swift */,
+			);
+			path = cardviewTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F230FB251F0E1493007354BD /* cardviewTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F230FB381F0E1499007354BD /* Build configuration list for PBXNativeTarget "cardviewTable" */;
+			buildPhases = (
+				F230FB221F0E1493007354BD /* Sources */,
+				F230FB231F0E1493007354BD /* Frameworks */,
+				F230FB241F0E1493007354BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cardviewTable;
+			productName = cardviewTable;
+			productReference = F230FB261F0E1498007354BD /* cardviewTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F230FB1E1F0E1492007354BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Syed Shahrukh Haider";
+				TargetAttributes = {
+					F230FB251F0E1493007354BD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F230FB211F0E1492007354BD /* Build configuration list for PBXProject "cardviewTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F230FB1D1F0E1492007354BD;
+			productRefGroup = F230FB271F0E1498007354BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F230FB251F0E1493007354BD /* cardviewTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F230FB241F0E1493007354BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F230FB341F0E1499007354BD /* LaunchScreen.storyboard in Resources */,
+				F230FB311F0E1499007354BD /* Assets.xcassets in Resources */,
+				F230FB2F1F0E1499007354BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F230FB221F0E1493007354BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F230FB2C1F0E1498007354BD /* ViewController.swift in Sources */,
+				F230FB2A1F0E1498007354BD /* AppDelegate.swift in Sources */,
+				F230FB3F1F0E1E97007354BD /* cardView.swift in Sources */,
+				F230FB3D1F0E1E75007354BD /* customTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F230FB2D1F0E1499007354BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F230FB2E1F0E1499007354BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F230FB321F0E1499007354BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F230FB331F0E1499007354BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F230FB361F0E1499007354BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F230FB371F0E1499007354BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F230FB391F0E1499007354BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cardviewTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perception.cardviewTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F230FB3A1F0E1499007354BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cardviewTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perception.cardviewTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F230FB211F0E1492007354BD /* Build configuration list for PBXProject "cardviewTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F230FB361F0E1499007354BD /* Debug */,
+				F230FB371F0E1499007354BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F230FB381F0E1499007354BD /* Build configuration list for PBXNativeTarget "cardviewTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F230FB391F0E1499007354BD /* Debug */,
+				F230FB3A1F0E1499007354BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F230FB1E1F0E1492007354BD /* Project object */;
+}
